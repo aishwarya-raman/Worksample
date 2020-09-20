@@ -35,12 +35,13 @@ button {
 button:hover {
   opacity:1;
 }
-body {
+body,.p {
     background-image: url("./wall.jpg");
-    background-color: #cccccc;
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: left;
    }
 
 /* Extra styles for the cancel button */
@@ -57,18 +58,27 @@ body {
 
 /* Add padding to container elements */
 .container {
-  padding: auto;
-  
-  
+  padding: 5px 5px;
+  color : white;
+  //font-family:Monotype Corsiva, Times, Serif;
+  font-family: "Monotype Corsiva";
+    font-style: italic;
+    align: left
 }
-.name, .mail , .pass{
-padding : 20px;
+
+.h1{
+    padding-bottom: 5px;
+    color : white;
+}
+.p,.name, .mail , .pass{
+padding : 10px;
 text-align: center;
+color: #f1f1f1;
 }
 .right {
     float: right;
     width: 500px;
-    border: 3px solid #73AD21;
+    border: 3px solid gray;
     padding: 10px;
   }
 /* Clear floats */
