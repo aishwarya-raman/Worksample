@@ -61,6 +61,10 @@ body {
   
   
 }
+.name, .mail , .pass{
+padding : 20px;
+text-align: center;
+}
 .right {
     float: right;
     width: 500px;
